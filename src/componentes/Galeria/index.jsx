@@ -18,7 +18,9 @@ export default function Galeria() {
   return (
     <section className={styles.galeria}>
       <h2>Navegue pela galeria</h2>
-      <Tags tags={tags} filtrarFotos={filtrarFotos} setItens={setItens}/>
+      <Tags 
+        tags={tags} 
+        filtrarFotos={filtrarFotos} setItens={setItens}/>
       <Cards fotos={itens} styles={styles}/>
     </section>
   )
