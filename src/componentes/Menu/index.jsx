@@ -11,23 +11,38 @@ export default function Menu() {
     <nav className={styles.menu}>
       <ul className={styles.menu__lista}>
          <li className={styles.menu__item}>
-            <img src={home} alt="Icone do Início" />
+            <img 
+               src={home} 
+               alt="Icone do Início" 
+            />
             <a href="/">Início</a>
          </li>
          <li className={styles.menu__item}>
-            <img src={maisCurtidas} alt="Icone de Mais Curtidas" />
+            <img 
+               src={maisCurtidas} 
+               alt="Icone de Mais Curtidas" 
+            />
             <a href="/">Mais curtidas</a>
          </li>
          <li className={styles.menu__item}>
-            <img src={maisVistas} alt="Icone de Mais Vistas" />
+            <img 
+               src={maisVistas} 
+               alt="Icone de Mais Vistas" 
+            />
             <a href="/">Mais vistas</a>
          </li>
          <li className={styles.menu__item}>
-            <img src={novas} alt="Icone de Novas" />
+            <img 
+               src={novas} 
+               alt="Icone de Novas" 
+            />
             <a href="/">Novas</a>
          </li>
          <li className={styles.menu__item}>
-            <img src={surpreendaMe} alt="Icone de Surpreenda-me" />
+            <img 
+               src={surpreendaMe} 
+               alt="Icone de Surpreenda-me" 
+            />
             <a href="/">Surpreenda-me</a>
          </li>
       </ul>

@@ -20,8 +20,13 @@ export default function Galeria() {
       <h2>Navegue pela galeria</h2>
       <Tags 
         tags={tags} 
-        filtrarFotos={filtrarFotos} setItens={setItens}/>
-      <Cards fotos={itens} styles={styles}/>
+        filtrarFotos={filtrarFotos} 
+        setItens={setItens}
+      />
+      <Cards 
+        fotos={itens} 
+        styles={styles}
+      />
     </section>
   )
 }

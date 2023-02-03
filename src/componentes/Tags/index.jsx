@@ -11,7 +11,8 @@ export default function Tags({tags, filtrarFotos, setItens}) {
           return (
             <li 
               key={tag} 
-              onClick={() => filtrarFotos(tag)}>{tag}
+              onClick={() => filtrarFotos(tag)}>
+                {tag}
             </li>
           );
          })}
